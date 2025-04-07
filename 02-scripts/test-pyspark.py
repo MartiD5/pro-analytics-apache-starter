@@ -3,6 +3,9 @@
 from pyspark.sql import SparkSession
 from typing import List, Tuple
 import logging
+import os
+os.environ["SPARK_HOME"] = "/Users/debramartin/pro-analytics-apache-starter/spark"
+os.environ["PATH"] += f":{os.environ['SPARK_HOME']}/bin"
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")

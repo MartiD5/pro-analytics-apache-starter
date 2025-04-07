@@ -13,7 +13,7 @@
 # TODO: Change the SPARK_VERSION to the desired version if needed
 SPARK_VERSION="3.5.5"
 HADOOP_VERSION="3"
-SPARK_FOLDER="spark"
+SPARK_FOLDER="/Users/debramartin/pro-analytics-apache-starter/spark"
 JDK_FOLDER="jdk"
 
 # Fail fast on errors
